@@ -38,8 +38,8 @@ export const preservationContent = {
         {
             id: "print-materiality",
             title: "Physical Preservation",
-            content: "Print is often characterized by \"durable\" and \"static\" qualities, forming a self-contained preservation system that digital formats struggle to match.",
-            source: "Kirschenbaum, 24",
+            content: "The contents of most digital media evaporate long before words written on high-quality paper, and they often become unusably obsolete much sooner, as they are superseded by new media or incompatible formats.",
+            source: "Rothenberg, 2",
             section: "print"
         },
         {
@@ -52,8 +52,8 @@ export const preservationContent = {
         {
             id: "digital-paradox",
             title: "Preservation Paradox",
-            content: "The very technologies intended to preserve digital content can become barriers to accessing it. As hardware, software, and operating systems required to interpret digital files become obsolete, they hinder future access to digital content.",
-            source: "Rothenberg, 10-11",
+            content: "We must still show how we can preserve the hardware needed to run the software to view a digital document. The migration process eliminates the need to preserve storage devices such as disk drives, but systems and application software still depend on hardware, both for computation and for input and output.",
+            source: "Rothenberg, 15",
             section: "digital"
         },
         {

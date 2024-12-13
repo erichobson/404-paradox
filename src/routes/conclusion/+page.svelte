@@ -39,8 +39,8 @@
                 digital preservation. The visual juxtaposition of the original
                 sonnet against its digital translation revealed what Rothenberg
                 identifies as the fundamental challenge of digital preservation:
-                "the multiple layers of technological dependency required for
-                access" (11).
+                "A single break in this chain can render digital information
+                inaccessible—short of heroic effort" (11).
             </p>
         </div>
 
@@ -65,7 +65,7 @@
             <p>
                 The bit-flip visualization provided a tangible demonstration of
                 digital fragility. As Rothenberg notes, "Old bit streams never
-                die—they just become unreadable" (4). This interactive element
+                die—they just become unreadable" (2). This interactive element
                 showed how even minor corruption at the binary level can render
                 digital content inaccessible, supporting Kirschenbaum's analysis
                 of digital materiality.
@@ -108,15 +108,14 @@
         <div class="reference">
             <p>
                 Kirschenbaum, Matthew G. "Editing the Interface: Textual Studies
-                and First Generation Electronic Objects." <em>TEXT</em>, vol.
+                and First Generation Electronic Objects." <em>Text</em>, vol.
                 14, 2002, pp. 15-51.
             </p>
         </div>
         <div class="reference">
             <p>
                 Rothenberg, Jeff. "Ensuring the Longevity of Digital
-                Information." <em>Scientific American</em>, vol. 272, no. 1,
-                1995, pp. 42-47.
+                Information." RAND, 22 Feb. 1999.
             </p>
         </div>
     </div>

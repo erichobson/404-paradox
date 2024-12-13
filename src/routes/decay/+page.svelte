@@ -94,8 +94,12 @@
         </div>
 
         <div class="subtext">
-            Each character is represented by 8 bits (a byte). Altering a bit can
-            change the character.
+            Each character above is encoded in 8 bits. Click any bit to see how
+            a single change affects the text.
+            <span class="reference"
+                >For a detailed explanation of binary encoding, see Rothenberg
+                (5-9).</span
+            >
         </div>
     </div>
 
@@ -116,11 +120,11 @@
 
         <p>
             As Rothenberg succinctly puts it, "Old bit streams never die—they
-            just become unreadable" (4). Rothenberg highlights the fragility of
+            just become unreadable" (2). Rothenberg highlights the fragility of
             digital media through this fundamental paradox. The dependencies on
             hardware, software, and file formats create what he describes as
             layers where "a single break in this chain can render digital
-            information inaccessible" (11). Over time, storage media degrades,
+            information inaccessible" (11). Over time, storage media degrade,
             software becomes obsolete, and interfaces evolve, making access to
             digital content increasingly precarious. Kirschenbaum argues that
             "the material complexity ... therefore underscores the need for
@@ -202,7 +206,7 @@
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .char-bits {
@@ -244,7 +248,14 @@
         left: 0;
         right: 0;
         padding: 0 2rem;
-        font-style: italic;
+        line-height: 1.4;
+    }
+
+    .subtext .reference {
+        display: block;
+        margin-top: 0.5rem;
+        font-size: 0.8rem;
+        opacity: 0.8;
     }
 
     .content-block {
