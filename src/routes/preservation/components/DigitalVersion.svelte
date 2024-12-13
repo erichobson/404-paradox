@@ -85,9 +85,9 @@
     <div class="digital-manuscript" data-note-id="digital-paradox">
         <div class="metadata-header">
             <div class="file-info">
-                <span>File: sonnet18.digital</span>
+                <span>File: sonnet18.txt</span>
                 <span>Format: UTF-8</span>
-                <span>Created: 1985</span>
+                <span>Created: 1995</span>
             </div>
         </div>
         <div class="content-wrapper">

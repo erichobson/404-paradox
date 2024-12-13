@@ -29,12 +29,8 @@
     const academicText = {
         title: "Interface Mediation in Digital Preservation",
         abstract:
-            'This analysis examines how interfaces shape our access to and understanding of digital content, demonstrating the paradox identified by Rothenberg that "digital information lasts forever—or five years, whichever comes first." Each interface transformation reveals another layer of potential inaccessibility.',
-        content: `The relationship between digital content and its interfaces presents a fundamental challenge in digital preservation. As Kirschenbaum notes, "interfaces are not neutral windows to content but actively shape how we read and understand digital texts." This mediation becomes particularly evident when examining how different interfaces transform our access to and interpretation of digital content.
-
-    Consider how digital documents are "held cryptic hostage to their own encoding" (Rothenberg), requiring specific software environments for interpretation. This dependency creates layers of mediation between user and content, each representing what Kirschenbaum identifies as a "potential point of failure in the preservation chain."
-
-    The materiality of these interfaces—their specific affordances, limitations, and transformations of content—demonstrates how digital preservation involves not just maintaining data, but preserving entire technological ecosystems. As Rothenberg argues, when these ecosystems fragment or become incompatible, the content itself becomes transformed, degraded, or entirely inaccessible.`,
+            'This analysis examines how interfaces shape our access to and understanding of digital content, demonstrating the paradox identified by Rothenberg that "digital information lasts forever—or five years, whichever comes first" (2). Each interface transformation reveals another layer of potential inaccessibility.',
+        content: `The dependency on specific software and hardware creates layers of mediation. Rothenberg states that digital documents are "held cryptic hostage to their own encoding" (10), requiring original software for interpretation. Kirschenbaum emphasizes that electronic texts involve "platform, interface, data standards, file formats, versioning, and so forth" (27). Each component represents a potential point of failure, and preserving digital content involves maintaining entire technological ecosystems. As Rothenberg warns, "if one needs to view a complex document as its author viewed it, one may have little choice but to run the software that created it" (10). When these ecosystems fragment, the content becomes inaccessible.`,
     };
 
     let currentViewState = viewStates[0];

@@ -39,8 +39,8 @@
                 digital preservation. The visual juxtaposition of the original
                 sonnet against its digital translation revealed what Rothenberg
                 identifies as the fundamental challenge of digital preservation:
-                the multiple layers of technological dependency required for
-                access.
+                "the multiple layers of technological dependency required for
+                access" (11).
             </p>
         </div>
 
@@ -49,7 +49,11 @@
             <p>
                 Through the transformation of academic text across different
                 interface paradigms, we demonstrated Kirschenbaum's argument
-                that "interfaces are not neutral windows to content." The
+                that interfaces actively shape our understanding of digital
+                texts. He notes that "the material complexity ... therefore
+                underscores the need for critical approaches capable of
+                accounting for such phenomena as multiple versions and releases,
+                data standards, platforms, and file formats" (43). The
                 progression from original to inaccessible state illustrated how
                 interface evolution can render content unreadable despite
                 perfect preservation of the underlying data.
@@ -60,8 +64,8 @@
             <h3>Digital Decay</h3>
             <p>
                 The bit-flip visualization provided a tangible demonstration of
-                digital fragility. As Rothenberg notes, "old bit streams never
-                die—they just become unreadable." This interactive element
+                digital fragility. As Rothenberg notes, "Old bit streams never
+                die—they just become unreadable" (4). This interactive element
                 showed how even minor corruption at the binary level can render
                 digital content inaccessible, supporting Kirschenbaum's analysis
                 of digital materiality.
@@ -100,25 +104,19 @@
     </div>
 
     <div class="references">
-        <h2>References</h2>
+        <h2>Works Cited</h2>
         <div class="reference">
             <p>
                 Kirschenbaum, Matthew G. "Editing the Interface: Textual Studies
-                and First Generation Electronic Objects." TEXT, vol. 14, 2002,
-                pp. [page numbers].
+                and First Generation Electronic Objects." <em>TEXT</em>, vol.
+                14, 2002, pp. 15-51.
             </p>
         </div>
         <div class="reference">
             <p>
                 Rothenberg, Jeff. "Ensuring the Longevity of Digital
-                Information." Scientific American, vol. 272, no. 1, 1995, pp.
-                42-47.
-            </p>
-        </div>
-        <div class="reference">
-            <p>
-                Svelte. (2023). Version 4 [JavaScript Framework]. Retrieved from
-                https://svelte.dev/
+                Information." <em>Scientific American</em>, vol. 272, no. 1,
+                1995, pp. 42-47.
             </p>
         </div>
     </div>

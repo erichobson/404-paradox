@@ -12,16 +12,16 @@
 
     <div class="content-block">
         <p>
-            As Kirschenbaum observes, the materiality of digital preservation
-            presents us with a unique paradox: perfect reproducibility coupled
-            with unprecedented vulnerability. Shakespeare's Sonnet XVIII
-            concludes with a powerful statement about preservation - that as
-            long as humans exist to read it, the printed text will survive. This
-            elegant simplicity of print preservation stands in stark contrast to
-            what Rothenberg identifies as the "multiple layers of technological
-            dependency" required for digital preservation. What was once a
-            straightforward relationship between reader and text now involves
-            complex chains of hardware, software, and interface mediation.
+            The materiality of digital preservation presents us with a unique
+            paradox: perfect reproducibility coupled with unprecedented
+            vulnerability. Shakespeare's Sonnet XVIII concludes with a powerful
+            statement about preservation - that as long as humans exist to read
+            it, the printed text will survive. This elegant simplicity of print
+            preservation stands in stark contrast to the multiple layers of
+            technological dependency required for digital preservation. What was
+            once a straightforward relationship between reader and text now
+            involves complex chains of hardware, software, and interface
+            mediation.
         </p>
     </div>
 
@@ -32,12 +32,12 @@
 
     <div class="content-block">
         <p>
-            Through a reimagining of Shakespeare's famous couplet for the
-            digital age, we'll explore how the very mechanisms meant to preserve
-            digital content introduce new vulnerabilities. Each layer represents
-            what Rothenberg describes as a "cryptic hostage" to its own
-            encoding, demonstrating how digital preservation paradoxically
-            complicates the very permanence it promises.
+            Through Rothenberg's reimagining of Shakespeare's famous couplet for
+            the digital age, we'll explore how the very mechanisms meant to
+            preserve digital content introduce new vulnerabilities. Each layer
+            represents what Rothenberg describes as a "cryptic hostage to its
+            own encoding" (10), demonstrating how digital preservation
+            paradoxically complicates the very permanence it promises.
         </p>
     </div>
 </section>

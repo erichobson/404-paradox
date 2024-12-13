@@ -18,56 +18,49 @@ export const preservationContent = {
         title: "Digital Preservation",
         content: "When Shakespeare wrote \"So long as men can breath or eyes can see, So long lives this,\" he captured a profound truth about print preservation. Yet in our digital age, this simple promise of permanence has become remarkably complex.",
         quote: "Digital information lasts forever—or five years, whichever comes first.",
-        source: "Rothenberg"
+        source: "Rothenberg, 10"
     },
     sideNotes: [
         {
             id: "intro-paradox",
             title: "Print vs. Digital Permanence",
-            content: "Digital preservation requires multiple layers of technological interpretation, unlike print's direct human readability.",
-            source: "Based on Rothenberg's analysis",
-            section: "introduction"
-        },
-        {
-            id: "intro-couplet",
-            title: "The Couplet's Promise",
-            content: "Shakespeare's simple promise of permanence transforms into a complex chain of technological dependencies.",
-            source: "Based on Kirschenbaum",
+            content: "Digital documents... cannot be 'held up to the light' but must be viewed by using appropriate software.",
+            source: "Rothenberg, 10",
             section: "introduction"
         },
         {
             id: "print-durability",
             title: "Direct Readability",
-            content: "Print remains readable without machinery or special tools—requiring only knowledge of language.",
-            source: "Based on Rothenberg's analysis",
+            content: "The letter possesses the enviable quality of being readable with no machinery, tools, or special knowledge—other than that of English.",
+            source: "Rothenberg, 2",
             section: "print"
         },
         {
             id: "print-materiality",
             title: "Physical Preservation",
-            content: "Print's material properties create a self-contained preservation system that digital formats struggle to match.",
-            source: "Based on Kirschenbaum",
+            content: "Print is often characterized by \"durable\" and \"static\" qualities, forming a self-contained preservation system that digital formats struggle to match.",
+            source: "Kirschenbaum, 24",
             section: "print"
         },
         {
             id: "digital-rewrite",
             title: "Digital Dependencies",
-            content: "Each layer of technology represents a potential point of failure in digital preservation.",
-            source: "Based on Rothenberg",
+            content: "These programs in turn depend on particular versions of operating systems, which may also become obsolete, requiring further levels of emulation.",
+            source: "Rothenberg, 15",
             section: "digital"
         },
         {
             id: "digital-paradox",
             title: "Preservation Paradox",
-            content: "Preservation technology itself becomes a barrier to accessing digital content.",
-            source: "Based on Rothenberg",
+            content: "The very technologies intended to preserve digital content can become barriers to accessing it. As hardware, software, and operating systems required to interpret digital files become obsolete, they hinder future access to digital content.",
+            source: "Rothenberg, 10-11",
             section: "digital"
         },
         {
             id: "layers-process",
             title: "Layer Dependencies",
-            content: "Failure at any level—hardware, software, or encoding—can render digital content inaccessible.",
-            source: "Based on Rothenberg",
+            content: "A single break in this chain can render digital information inaccessible.",
+            source: "Rothenberg, 11",
             section: "layers"
         }
     ]

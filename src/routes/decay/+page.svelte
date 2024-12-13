@@ -104,27 +104,31 @@
         <p>
             While digital content feels intangible, it is grounded in physical
             media that require specific technologies to access. As Kirschenbaum
-            explores through works like Agrippa, the materiality of digital
-            objects means they are both easily replicated and uniquely fragile.
-            Each character above is represented by eight bits; changing just one
-            can corrupt the character entirely. This demonstrates how digital
-            texts are vulnerable at their most basic level.
+            explains through works like Agrippa, "electronic texts do not enjoy
+            a material existence in that one particularly narrow and literal
+            way—you cannot reach out and touch them—that notion seems to me to
+            reflect a relatively simplistic understanding of electronic media"
+            (43). The materiality of digital objects means they are both easily
+            replicated and uniquely fragile. Each character in a digital text is
+            represented by bits; changing just one can corrupt the character
+            entirely, demonstrating how digital texts are vulnerable at their
+            most basic level.
         </p>
 
-        <blockquote>
-            Old bit streams never die—they just become unreadable.
-            <footer>- Rothenberg</footer>
-        </blockquote>
-
         <p>
-            Rothenberg highlights the fragility of digital media through this
-            fundamental paradox. The dependencies on hardware, software, and
-            file formats create what he terms "layers of potential failure."
-            Over time, storage media degrade, software becomes obsolete, and
-            interfaces evolve, making access to digital content increasingly
-            precarious. As Kirschenbaum argues, this demonstrates how the very
-            mechanisms intended to preserve digital information can lead to its
-            inaccessibility.
+            As Rothenberg succinctly puts it, "Old bit streams never die—they
+            just become unreadable" (4). Rothenberg highlights the fragility of
+            digital media through this fundamental paradox. The dependencies on
+            hardware, software, and file formats create what he describes as
+            layers where "a single break in this chain can render digital
+            information inaccessible" (11). Over time, storage media degrades,
+            software becomes obsolete, and interfaces evolve, making access to
+            digital content increasingly precarious. Kirschenbaum argues that
+            "the material complexity ... therefore underscores the need for
+            critical approaches capable of accounting for such phenomena as
+            multiple versions and releases, data standards, platforms, and file
+            formats" (43). This demonstrates how the very mechanisms intended to
+            preserve digital information can lead to its inaccessibility.
         </p>
     </div>
 
