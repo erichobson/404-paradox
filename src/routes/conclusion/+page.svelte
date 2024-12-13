@@ -1,6 +1,6 @@
 <script>
     import { onMount } from "svelte";
-    import { visitedSections } from "$lib/stores";
+    import { visitedSections, showGrid } from "$lib/stores";
     import { goto } from "$app/navigation";
 
     function resetExperience() {
@@ -9,6 +9,7 @@
             interface: false,
             decay: false,
         });
+        showGrid.set(false);
         goto("/", { replaceState: true });
     }
 </script>

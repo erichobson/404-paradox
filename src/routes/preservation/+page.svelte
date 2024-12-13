@@ -1,6 +1,7 @@
 <script>
     import { scale } from "svelte/transition";
     import { goto } from "$app/navigation";
+    import { showGrid } from "$lib/stores";
     import Introduction from "./components/Introduction.svelte";
     import PrintVersion from "./components/PrintVersion.svelte";
     import DigitalVersion from "./components/DigitalVersion.svelte";
@@ -22,7 +23,10 @@
     <div class="navigation-button-container">
         <button
             class="navigation-button"
-            on:click={() => goto("/?view=grid", { replaceState: true })}
+            on:click={() => {
+                showGrid.set(true);
+                goto("/", { replaceState: true });
+            }}
         >
             ← Back
         </button>

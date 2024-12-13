@@ -3,10 +3,8 @@
     import { fade, scale } from "svelte/transition";
     import { goto } from "$app/navigation";
     import { page } from "$app/stores";
-    import { visitedSections, allSectionsVisited } from "$lib/stores";
+    import { visitedSections, allSectionsVisited, showGrid } from "$lib/stores";
     import ProgressChip from "$lib/components/ProgressChip.svelte";
-
-    let showGrid = $page.url.searchParams.get("view") === "grid";
 
     const sections = [
         {
@@ -27,7 +25,7 @@
     ];
 
     function enterSite() {
-        showGrid = true;
+        $showGrid = true;
         goto("/?view=grid", { replaceState: true });
     }
 
@@ -56,7 +54,7 @@
 
     // Variable to track the interval for logo rotation
     onMount(() => {
-        if (!showGrid) {
+        if (!$showGrid) {
             interval = setInterval(() => {
                 currentLogoIndex = (currentLogoIndex + 1) % logos.length;
             }, 5000);
@@ -92,7 +90,7 @@
 
     // Function to change fonts randomly (from the initial code)
     async function randomizeFonts() {
-        while (!showGrid && logos[currentLogoIndex].id === "decay") {
+        while (!$showGrid && logos[currentLogoIndex].id === "decay") {
             await tick();
             document.querySelectorAll(".decay-logo .char").forEach((char) => {
                 char.style.fontFamily = getRandomFont();
@@ -182,7 +180,7 @@
 </script>
 
 <div class="container">
-    {#if !showGrid}
+    {#if !$showGrid}
         <div
             class="intro"
             on:click={enterSite}

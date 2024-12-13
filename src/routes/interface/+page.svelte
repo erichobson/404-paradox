@@ -1,5 +1,6 @@
 <script>
     import { goto } from "$app/navigation";
+    import { showGrid } from "$lib/stores";
     import { fade, slide } from "svelte/transition";
 
     const viewStates = [
@@ -207,7 +208,10 @@
     <div class="navigation-button-container">
         <button
             class="navigation-button"
-            on:click={() => goto("/?view=grid", { replaceState: true })}
+            on:click={() => {
+                showGrid.set(true);
+                goto("/", { replaceState: true });
+            }}
         >
             ← Back
         </button>
