@@ -63,7 +63,6 @@
         of digital preservation.
     </p>
 
-    <!-- Visualization (unchanged) -->
     <div class="demonstration-container">
         <div class="text-display">
             {#each displayText.split("") as char, i}
@@ -93,11 +92,11 @@
                 </div>
             {/each}
         </div>
-    </div>
 
-    <div class="subtext">
-        Click any binary digit (0 or 1) to see how altering a single bit can
-        corrupt digital text.
+        <div class="subtext">
+            Each character is represented by 8 bits (a byte). Altering a bit can
+            change the character.
+        </div>
     </div>
 
     <div class="content-block">
@@ -167,27 +166,15 @@
         margin-bottom: 2rem;
     }
 
-    blockquote {
-        border-left: 3px solid #666;
-        padding-left: 1.5rem;
-        margin: 1.5rem 0;
-        font-style: italic;
-        color: #666;
-        text-align: center;
-    }
-
-    blockquote footer {
-        margin-top: 0.5rem;
-        font-size: 0.9rem;
-    }
-
     .demonstration-container {
         background: var(--color-surface);
-        padding: 3rem;
+        padding: 3rem 3rem 3rem;
         border-radius: 8px;
         box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
         margin: 4rem auto;
         max-width: 800px;
+        position: relative;
+        min-height: 300px;
     }
 
     .text-display {
@@ -215,6 +202,7 @@
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
+        margin-bottom: 2rem;
     }
 
     .char-bits {
@@ -249,15 +237,19 @@
 
     .subtext {
         text-align: center;
-        color: var(--color-text-secondary);
-        font-size: 0.9rem;
-        margin: 1rem auto 2rem;
-        max-width: 600px;
+        color: var(--color-text-tertiary, #999);
+        font-size: 0.85rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        right: 0;
+        padding: 0 2rem;
+        font-style: italic;
     }
 
     .content-block {
         margin: 2rem auto;
-        max-width: 700px; /* Constrain the width */
+        max-width: 700px;
         text-align: left;
     }
 
@@ -283,6 +275,7 @@
             font-size: 0.9rem;
         }
     }
+
     .navigation-button-container {
         padding: 1rem;
         text-align: center;

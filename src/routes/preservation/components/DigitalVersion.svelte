@@ -1,5 +1,4 @@
 <script>
-    import { fade } from "svelte/transition";
     import { preservationContent } from "../data/content.js";
     import {
         activeError,
@@ -70,14 +69,6 @@
 
         return () => observer.disconnect();
     });
-
-    let mouseX = 0;
-    let mouseY = 0;
-
-    function handleMouseMove(event) {
-        mouseX = event.clientX;
-        mouseY = event.clientY;
-    }
 </script>
 
 <section class="digital-version" data-note-id="digital-complexity">
@@ -97,19 +88,14 @@
                         class="line-container"
                         on:mouseenter={() => simulateError(i)}
                         on:mouseleave={clearError}
-                        on:mousemove={handleMouseMove}
                     >
                         <p class="line">{line.line}</p>
-                        {#if $activeError === i}
-                            <div
-                                class="preservation-note"
-                                transition:fade
-                                style="left: {mouseX + 10}px; top: {mouseY +
-                                    10}px;"
-                            >
-                                {line.error}
-                            </div>
-                        {/if}
+                        <p
+                            class="error-message"
+                            class:active={$activeError === i}
+                        >
+                            {line.error}
+                        </p>
                     </div>
                 {/each}
             </div>
@@ -129,7 +115,7 @@
 
     .digital-manuscript {
         background: var(--color-surface);
-        padding: 2rem; /* Reduced from 3rem */
+        padding: 2rem;
         border-radius: 8px;
         position: relative;
         box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
@@ -140,53 +126,56 @@
 
     .metadata-header {
         border-bottom: 1px solid var(--color-border);
-        padding-bottom: 0.5rem; /* Reduced from 1rem */
-        margin-bottom: 1rem; /* Reduced from 2rem */
+        padding-bottom: 0.5rem;
+        margin-bottom: 1rem;
     }
 
     .file-info {
         display: flex;
         gap: 2rem;
         color: var(--color-text-secondary);
-        font-size: 0.85rem; /* Slightly smaller */
+        font-size: 0.85rem;
     }
 
     .preservation-text {
         position: relative;
         z-index: 1;
-        padding: 1rem; /* Reduced from 2rem */
+        padding: 1rem;
     }
 
     .line-container {
-        margin: 0.8rem 0; /* Reduced from 1.8rem */
+        margin: 0.8rem 0;
         position: relative;
-        padding: 0.25rem; /* Reduced from 0.5rem */
+        padding: 0.5rem;
         border-radius: 4px;
         transition: background-color 0.2s ease;
-        cursor: pointer;
+    }
+
+    .line-container:hover {
+        background-color: rgba(255, 0, 0, 0.05);
     }
 
     .line {
-        font-size: 1rem; /* Slightly smaller */
-        line-height: 1.4; /* Reduced from 1.8 */
+        font-size: 1rem;
+        line-height: 1.4;
         color: var(--color-text);
         margin: 0;
     }
 
-    .preservation-note {
-        position: fixed;
-        background: rgba(0, 0, 0, 0.85);
-        backdrop-filter: blur(8px);
-        color: #fff;
-        padding: 0.75rem;
-        border-radius: 6px;
+    .error-message {
         font-size: 0.85rem;
-        max-width: 220px;
-        box-shadow:
-            0 4px 15px rgba(0, 0, 0, 0.2),
-            0 0 0 1px rgba(255, 255, 255, 0.1);
-        z-index: 1000;
-        pointer-events: none;
+        color: #ff3e3e;
+        margin: 0;
+        max-height: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: all 0.3s ease;
+    }
+
+    .error-message.active {
+        max-height: 2em;
+        opacity: 1;
+        margin-top: 0.5rem;
     }
 
     .digital-watermark {
@@ -198,9 +187,5 @@
         color: rgba(0, 0, 0, 0.03);
         pointer-events: none;
         font-family: monospace;
-    }
-
-    .line-container:hover {
-        background: rgba(0, 0, 0, 0.05);
     }
 </style>

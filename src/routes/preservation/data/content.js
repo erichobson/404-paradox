@@ -18,7 +18,7 @@ export const preservationContent = {
         title: "Digital Preservation",
         content: "When Shakespeare wrote \"So long as men can breath or eyes can see, So long lives this,\" he captured a profound truth about print preservation. Yet in our digital age, this simple promise of permanence has become remarkably complex.",
         quote: "Digital information lasts forever—or five years, whichever comes first.",
-        source: "Rothenberg, 10"
+        source: "Rothenberg, 2"
     },
     sideNotes: [
         {
